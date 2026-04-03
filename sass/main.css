@@ -89,16 +89,6 @@ h1, h2, h3, h4, p {
   justify-content: center;
   align-items: center;
   border: 0.5px solid #000;
-  transition: 1s;
-}
-.active{
-  .header__checkbox{
-    background-color: #000;
-    transform: translateX(20px);
-  }
-  .background{
-    background-color: grey;
-  }
 }
 .header__text {
   color: #000;
@@ -112,7 +102,7 @@ h1, h2, h3, h4, p {
 
 main {
   background-color: #EEE;
-  background-image: url(/images/Group\ 141.png);
+  background-image: url(../../images/);
   background-position: center;
 }
 
