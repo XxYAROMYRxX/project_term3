@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./sass/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="backdrop">
+            <div class="modal">
+                <div class="model flex">
+                    <p class="modal__greeting">Привіт!<br>Ви потрапили на сайт інтерактивних ігор та завдань<br>Надіємось,
+                        що вам сподобається і ви отримаєте позитивні емоції!<br>Бажаємо Вам гарно провести час!</p>
+                    <button type="button" class="modal__close">X</button>
+                </div>
+                <p class="modal__text">Введіть своє ім’я:</p>
+                <form class="modal__form">
+                    <input type="text" name="name" placeholder="Ваше ім’я..." class="modal__input">
+                    <button type="submit" class="modal__save">Зберегти</button>
+                </form>
+            </div>
+        </div>
+        <div class="container flex">
+            <!-------------------------------------- modal ------------------------------------------>
+            <a href="./index.html" class="header__logo"><img src="./images/logo.png" alt="logo"
+                    class="header__image"></a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a href="" class="header__link">Інтерактив</a></li>
+                    <li class="header__item"><a href="" class="header__link">Наша команда</a></li>
+                    <li class="header__item"><a href="" class="header__link">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header__wrap">
+                <div class="header__check">
+                    <div class="header__checkbox"><img src="./images/ellipse.png" alt="" class="header__icon"></div>
+                </div>
+                <p class="header__text">Вітаємо, <span class="header__name">User</span>!</p>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div class="background">
+            <section class="age">
+                <div class="container">
+                    <h1 class="age__title">Популярні інетрактивні ігри</h1>
+                    <div class="line"></div>
+                    <h2 class="age__subtitle">Перевір в який рік ти народився</h2>
+                    <div class="age__box">
+                        <div class="age__boxwrap flex">
+                            <input type="text" class="age__input" placeholder="Введіть рік народження">
+                            <button class="age__searchbtn"><img src="./images/Group 104.png" alt="search"></button>
+                        </div>
+                        <p class="age__text">Ви народилися у високосний рік!</p>
+                    </div>
+                </div>
+            </section>
+            <!------------------------------------------ section ----------------------------------------------->
+            <section class="guess">
+                <div class="container">
+                    <div class="line"></div>
+                    <h2 class="guess__subtitle">Вгадай число, яке загадав комп’ютер</h2>
+                    <div class="guess__box">
+                        <div class="guess__boxwrap flex">
+                            <input type="text" class="guess__input" placeholder="Введіть число">
+                            <button class="guess__searchbtn"><img src="./images/Group 104.png" alt="search"></button>
+                        </div>
+                        <p class="guess__text">Вітаю, ви вгадали число! <span>(number)</span></p>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </section>
+            <!------------------------------------------ section ----------------------------------------------->
+            <section class="game">
+                <div class="container">
+                    <h2 class="game__h2">Камінь - ножиці - папір</h2>
+                    <div class="flex">
+                        <div class="game__boxwrap">
+                            <button class="game__rock"><img src="./images/stone 1.png" alt="rock"></button>
+                            <button class="game__scissors"><img src="./images/scissors 1.png" alt="scissors"></button>
+                            <button class="game__paper"><img src="./images/paper 1.png" alt="paper"></button>
+                        </div>
+                        <div class="score">
+                            <p class="game__style">Рахунок:</p>
+                            <p class="game__style">Комп’ютер - <span class="game__computer"></span></p>
+                            <p class="game__style">Ви - <span class="game__user"></span></p>
+                        </div>
+                    </div>
+                    <h2 class="game__win">Ви виграли раунд!</h2>
+                    <button class="game__variant">Варіант комп’ютера</button>
+                    <div class="line"></div>
+                </div>
+            </section>
+            <!------------------------------------------ section ----------------------------------------------->
+            <section class="calc">
+                <div class="container">
+                    <h2 class="calc__title">Калькулятор</h2>
+                    <div class="calc__box">
+                        <div class="calc__wrap">
+                            <input type="text" class="calc__type" placeholder="Введіть число">
+                        </div>
+                        <div class="calc__boxwrap">
+                            <button class="calc__add">+</button>
+                            <button class="calc__multiply">*</button>
+                            <button class="calc__take">-</button>
+                            <button class="calc__divide">/</button>
+                        </div>
+                        <div class="calc__wrap">
+                            <input type="text" class="calc__type" placeholder="Введіть число">
+                        </div>
+                        <button class="calc__equalbtn">=</button>
+                        <div class="calc__result">
+                            <input type="text" class="calc__resultinput" placeholder="Результат">
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <h2 class="calc__subtitle">Калькулятор часу</h2>
+                    <div class="flex">
+                        <div class="calc__inputwrap flex">
+                            <input type="text" class="calc__input" placeholder="Введіть число">
+                            <button class="calc__searchbtn"><img src="./images/Group 104.png" alt="search"></button>
+                        </div>
+                        <div class="calc__dashed"></div>
+                        <p class="calc__answer">3 дн. 15:45:01</p>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </section>
+            <!----------------------------------------------- section ------------------------------------------>
+            <section class="dino">
+                <div class="container">
+                    <h2 class="dino__title">Google динозавр</h2>
+                    <div class="line"></div>
+                </div>
+            </section>
+            <!------------------------------------------- section ------------------------------------>
+            <section class="football">
+                <div class="container">
+                    <h2 class="football__title">Футбол</h2>
+                    <div class="football__wrap">
+                        <div>
+                            <img src="./images/football (1) 1.png" alt="football" class="ball">
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </section>
+<!------------------------------------- section ---------------------------------------->
+            <section class="biggest">
+                <div class="container">
+                    <h2 class="biggest__title">Введіть 3 числа</h2>
+                    <div class="biggest__box">
+                        <input type="text" placeholder="Введіть число" class="biggest__first">
+                        <input type="text" placeholder="Введіть число" class="biggest__second">
+                        <input type="text" placeholder="Введіть число" class="biggest__third">
+                    </div>
+                    <p class="biggest__text">Найбільше число, яке ви ввели - <span>(число)</span></p>
+                    <div class="line"></div>
+                </div>
+            </section>
+<!------------------------------------- section --------------------------------------->
+            <section class="team">
+                <h2 class="team__title">Наша команда</h2>
+                <div class="flexbox flex">
+                    <button class="team__leftbtn"><img src="./images/Vector 231.png" alt="left"></button>
+                    <div class="team__box"></div>
+                    <button class="team__rightbtn"><img src="./images/Vector 230.png" alt="left"></button>
+                </div>
+                <p class="team__name">Ім’я студента</p>
+                <p class="team__info">Інформація про роботу, яку він/вона виконав/ла</p>
+                <div class="team__linebox flex">
+                    <div class="team__line1"></div>
+                    <div class="team__line2"></div>
+                    <div class="team__line3"></div>
+                    <div class="team__line4"></div>
+                    <div class="team__line5"></div>
+                    <div class="team__line6"></div>
+                    <div class="team__line7"></div>
+                </div>
+                <div class="line"></div>
+            </section>
+<!----------------------------------- section ---------------------------------------->
+            <section class="scientists">
+                <h2 class="scientists__title">Обери вченого/их</h2>
+                <div class="scientists__boxwrap">
+                    <div class="scientists__box1"></div>
+                    <div class="scientists__box2"></div>
+                    <div class="scientists__box3"></div>
+                    <div class="scientists__box4"></div>
+                    <div class="scientists__box5"></div>
+                    <div class="scientists__box6"></div>
+                    <div class="scientists__box7"></div>
+                    <div class="scientists__box8"></div>
+                    <div class="scientists__box9"></div>
+                    <div class="scientists__box10"></div>
+                    <div class="scientists__box11"></div>
+                    <div class="scientists__box12"></div>
+                </div>
+                <div class="scientists__wrap flex">
+                    <div class="scientists__ques1">Які вчені народилися в 19 ст.</div>
+                    <div class="scientists__ques2">Знайти рік народження Albert Einshtein</div>
+                    <div class="scientists__ques3">Відсортувати вчених за алфавітом</div>
+                    <div class="scientists__ques4">Знайти вчених, прізвища яких починаються на на літеру “С” </div>
+                    <div class="scientists__ques5">Відсортувати вчених за кількістю прожитих років</div>
+                    <div class="scientists__ques6">Видалити всіх вчених, ім’я яких починається на “А”</div>
+                    <div class="scientists__ques7">Знайти вченого, який народився найпізніше</div>
+                    <div class="scientists__ques8">Знайти вченого, який прожив найдовше і вченого, який прожив найменше</div>
+                    <div class="scientists__ques9">Знайти вчених, в яких співпадають перші літери імені і прізвища</div>
+                </div>
+            </section>
+        </div>
+    </main>
+<!-------------------------------------- footer ------------------------------------>
+    <footer class="footer">
+        <div class="container flex">
+            <a href="./index.html" class="footer__logo"><img src="./images/logofooter.png" alt="logo" class="footer__image"></a>
+            <p class="footer__text">Тел: +38 (123) 456 78 90<br>E-Mail: codingmagic@gmail.com<br>Facebook: CodingMagic<br>Twitter: CodingMagic<br>Instagram: CodingMagic</p>
+            <div class="footer__wrap">
+                <div class="flex">
+                    <input type="text" placeholder="Ваша ел. адреса..." class="footer__input">
+                    <button class="footer__button">Підписатись</button>
+                </div>
+                <p class="footer__comment">
+                    *Підписавшись, Ви зможете ортимувати інформаццію про новинки на сайті
+                </p>            
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script type="module" src="./js/index.js"></script>
+</body>
+
+</html>

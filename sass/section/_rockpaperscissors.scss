@@ -1,0 +1,87 @@
+.game{
+    text-align: center;
+
+    
+    &__h2{
+        color: #000;
+        font-family: "Montserrat Alternates";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+    &__boxwrap{
+        margin-top: 36px;
+        margin-left: 426px;
+    }
+    &__rock{
+        border: none;
+        display: inline-flex;
+        padding: 10px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 20px;
+        background: #000;
+    }
+    &__scissors{
+        margin-left: 38px;
+        border: none;
+        display: inline-flex;
+        padding: 10px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 20px;
+        background: #000;
+    }
+    &__paper{
+        margin-left: 38px;
+        border: none;
+        display: inline-flex;
+        padding: 10px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 20px;
+        background: #000;
+    }
+    &__score{
+        padding-top: 36px;
+
+    }
+    &__style{
+        margin-left: 104px;
+        color: #000;
+        font-family: "Montserrat Alternates";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%;
+        }
+    &__win{
+        margin-top: 36px;
+        margin-bottom: 36px;
+        color: #039900;
+        font-family: "Montserrat Alternates";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__variant{
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        background: #000;
+        color: #FFF;
+        font-family: "Montserrat Alternates";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__variant:hover{
+        border: none;
+        background-color:#D7D7D7;;
+        color: #000;
+        transition: all 0.5s linear;
+    }
+}

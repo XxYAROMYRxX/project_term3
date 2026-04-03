@@ -1,0 +1,105 @@
+.team {
+    text-align: center;
+
+    &__title {
+        color: #000;
+        font-family: "Montserrat Alternates";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 36px;
+    }
+
+    &__leftbtn {
+        padding: 0;
+        margin-left: 97px;
+        margin-right: 328px;
+        border: none;
+        background-color: #FFF;
+    }
+
+    &__box {
+        width: 150.0px;
+        height: 150.0px;
+        border-radius: 20px;
+        background: #D9D9D9;
+
+    }
+
+    &__rightbtn {
+        padding: 0;
+        margin-left: 328px;
+        border: none;
+        background-color: #FFF;
+    }
+
+    &__name {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #000;
+        font-family: "Montserrat Alternates";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+
+    &__info {
+        margin-bottom: 20px;
+        color: #000;
+        font-family: "Montserrat Alternates";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+    &__linebox{
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+    }
+    &__line1 {
+        width: 18.0px;
+        height: 3.0px;
+        border-radius: 3px;
+        background: #D9D9D9;
+    }
+    &__line2{
+        width: 18.0px;
+        height: 3.0px;
+        border-radius: 3px;
+        background: #D9D9D9;
+    }
+    &__line3 {
+        width: 18.0px;
+        height: 3.0px;
+        border-radius: 3px;
+        background: #D9D9D9;
+    }
+    &__line4 {
+        width: 18.0px;
+        height: 3.0px;
+        border-radius: 3px;
+        background: #D9D9D9;
+    }
+    &__line5 {
+        width: 18.0px;
+        height: 3.0px;
+        border-radius: 3px;
+        background: #D9D9D9;
+    }
+    &__line6 {
+        width: 18.0px;
+        height: 3.0px;
+        border-radius: 3px;
+        background: #D9D9D9;
+    }
+    &__line7 {
+        width: 18.0px;
+        height: 3.0px;
+        border-radius: 3px;
+        background: #D9D9D9;
+    }
+}

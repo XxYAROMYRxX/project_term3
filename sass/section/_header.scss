@@ -1,0 +1,63 @@
+.header{
+    padding-top: 21px;
+    padding-bottom: 21px;
+
+    &__logo{
+        width: 93px;
+        height: 38px;
+        margin-right: 81px;
+    }
+    &__list{
+        display: flex;
+        gap: 50px;
+        margin-right: auto;
+    }
+    &__link{
+        color: #000;
+        font-family: "Montserrat Alternates";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__link:hover{
+        color: #7A7A7A;
+        transition: all 0.5s linear;
+    }
+    &__wrap{
+        display: flex;
+        align-items: center;
+        gap: 51px;
+        margin-left: auto;
+    }
+    &__check{
+        width: 40.0px;
+        height: 20.0px;
+        border-radius: 11px;
+        background: #7A7A7A;
+        position: relative;
+    }
+    &__checkbox{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0.5px solid #000;
+    }
+    &__text{
+        color: #000;
+        text-align: right;
+        font-family: "Montserrat Alternates";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+}

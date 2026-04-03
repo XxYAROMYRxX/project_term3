@@ -1,0 +1,84 @@
+main{
+    background-color: #EEE;
+    background-image: url(/images/Group\ 141.png);
+    background-position: center;
+}
+.age{
+    text-align: center;
+    
+    &__title{
+        padding-top: 36px;
+        color: #000;
+        font-family: "Montserrat Alternates";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__subtitle{
+        margin-bottom: 36px;
+        color: #000;
+        font-family: "Montserrat Alternates";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__box{
+        display: flex;
+        padding-left: 257px;
+
+    }
+    &__boxwrap{
+        width: 215.0px;
+        height: 35.0px;
+        padding-top: 10px;
+        gap: 10px;
+        border-radius: 20px;
+        background: #D7D7D7;
+        border: none;
+        padding-bottom: 10px;
+        padding-left: 8px;
+        margin-right: 10px;
+        filter: drop-shadow(3px 3px 0 rgba(0, 0, 0, 0.25));
+
+    }
+    &__input{
+        width: 180px;
+        // width: 160px;
+        border: none;
+        background-color: #D7D7D7;
+        color: #7E7E7E;
+        font-family: "Montserrat Alternates";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+    &__searchbtn{
+        padding: 10px;
+        border: none;
+        border-radius: 0 20px 20px 0;
+        background-color: #000;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+    }
+    &__searchbtn:hover{
+        background-color: #646464;
+        color: #000;
+        transition: all 0.5s linear;
+    }
+    &__text{
+        margin-top: 10px;
+        margin-left: 149px;
+        color: #039900;
+        text-align: right;
+        font-family: "Montserrat Alternates";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

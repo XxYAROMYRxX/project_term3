@@ -1,0 +1,70 @@
+.footer {
+    text-align: center;
+    padding-bottom: 69px;
+
+
+    &__image {
+        padding-left: 5px;
+        padding-top: 75px;
+    }
+    &__text {
+        margin-left: 185px;
+        padding-top: 40px;
+        text-align: left;
+        width: 207px;
+        height: 100.0px;
+        color: #000;
+        font-family: "Montserrat Alternates";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 170%;
+    }
+
+    &__wrap {
+        margin-left: 170px;
+        padding-top: 97px;
+    }
+
+    &__input {
+        border: none;
+        width: 204.0px;
+        height: 35.0px;
+        padding: 10px 80px 10px 10px;
+        border-radius: 20px;
+        background: #D7D7D7;
+        color: #7E7E7E;
+        font-family: "Montserrat Alternates";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__button {
+        margin-left: 46px;
+        border: none;
+        width: 107.0px;
+        height: 35.0px;
+        padding: 10px;
+        border-radius: 20px;
+        background: #000;
+        color: #FFF;
+        font-family: "Montserrat Alternates";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__button:hover{
+        background: #D7D7D7;
+        color: #000;
+        transition: all 0.5s linear;
+    }
+    &__comment {
+        text-align: left;
+        margin-top: 18px;
+        color: #000;
+        font-family: "Montserrat Alternates";
+        font-size: 6px;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
